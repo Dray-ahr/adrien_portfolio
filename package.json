@@ -1,0 +1,16 @@
+{
+  "name": "adrien_ratsi_portfolio2021",
+  "version": "1.0.0",
+  "description": "adrienratsiP2021.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  },
+  "author": "adrien Ratsi",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/approuter": "^10.4.2",
+    "@sap/html5-repo-mock": "^2.0.1",
+    "cds": "^0.2.0"
+  }
+}

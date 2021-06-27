@@ -1,0 +1,26 @@
+{
+	"morereal": "Quelques réalisations",
+
+	"Realisations": [{
+		"techno": ["SAP", "Autonomie"],
+		"id_projet": "report_sac",
+		"index": 0,
+		"nom": "Déblocage Facture ARIBA",
+		"image": "Images/bk.jpg",
+		"modules": "Module SAP : FI-CO",
+		"competence_tech": "<strong> SAP ABAP </strong>",
+		"competence_hum": "<strong> Relation client - Autonomie - Adaptation </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>Ce projet fut parmis les premiers que j'ai pu traiter durant mon stage. J'ai travaillé avec une Consultante fonctionnelle de mon entreprise et c'était un sujet pour le compte de Burger King.",
+			"<p>Le problème était le suivant : . </br>",
+			"<p>Burger King a un programme sur SAP qui traite ses factures. Lorsqu'il manque une information, ces factures se retrouvent bloquées. Ce qui est un processus tout à fait normal car il est déjà possible de débloquer une facture manuellement à partir de la transaction MRBR. Or, la demande de BK était de débloquer les factures de manière automatique, peu importe les conditions.</p> ",
+			"<p>D'un point de vue technique, il fallait maitriser un minimum les BAPI car c'est avec une BAPI qu'on a pu débloquer les factures. Il fallait ensuite implémenter le déblocage automatique ainsi qu'un JOB pour que le programme puisse tourner en arrière-plan. Plus haut on peut voir l'écran de séléction et les données en sortie après exécution du programme.</br>",
+			"<p>J'ai donc beaucoup appris à l'aide de ce ticket autant dans l'aspect métier que technique.</br>",
+			"</div'>"
+		],
+		"close_button": "Fermer",
+		"developed_skills": "Compétences développées"
+	}]
+
+}

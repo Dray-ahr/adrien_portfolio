@@ -1,0 +1,223 @@
+{
+	"morereal": "Some realisations",
+	"close_button": "Close",
+	"developed_skills": "Developed skills",
+
+	"Realisations": [{
+		"techno": ["NEWSAP", "Autonomie", "Flexibilité"],
+		"id_projet": "report_sac",
+		"index": 0,
+		"nom": "SAP Analytics Cloud Report",
+		"image": "Images/custom_field.png",
+		"modules": "SAP Module : MM",
+		"competence_tech": "<strong> SAP Analytics Cloud - CDS - OData </strong>",
+		"competence_hum": "<strong> Autonomy - Flexibility </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>For the preparation of a <strong>SAP Analytics Cloud</strong> presales, I developed a SAC report enables to visualize classification data related to materials of <strong>S/4HANA</strong> erp. ",
+			"<p>To succeed, I had to identify the tables or <strong>HANA</strong> views containing the necessary data in order to use those data during the creation of a CDS View in Eclipse. The classification informations deal with the material characteristics like material number, material type and his location. </br>",
+			"<p>The CDS View implementation enables to create an <strong>OData</strong> service in S/4HANA whose retrieve the materials data. Following the creation of an OData service connection in SAC, I realized the data modeling then I was able to build the report thanks to the datasource. </p> ",
+			"<p>The presales contributed to be more familiar with the ABAP <stong>Core Data Services</strong> language and the various functionalities of SAC. And these experience helped me to refine my knowledge regarding the creation of connection, data modeling and report building. </br>",
+			"</div'>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["NEWSAP", "Autonomie", "Flexibilité"],
+		"id_projet": "zones_perso",
+		"index": 1,
+		"nom": "Custom fields",
+		"image": "Images/custom_field.png",
+		"modules": "SAP Module : FI/CO, SD",
+		"competence_tech": "<strong> S/4HANA - CDS - SAPUI5/Fiori - OData - ABAP </strong>",
+		"competence_hum": "<strong> Autonomy - Flexibility </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>For a project of implementation of a <strong>S4/HANA</strong> On-Premise solution I was responsible of adding custom fields in S/4HANA applications. The applications to enhance was the billing and sales applications. The new fields enable the data migration of the old erp to the new system. </br></p> ",
+			"<p>S/4HANA enables business user to add custom fields to standard applications thanks to the Custom Fields and Logic app. Those application. For those project, I created coding block fields in back-end then I activated those fields in front-end with the extensibility tools. Moreover I had to extend various applications with <strong>SAP Cloud Platform</strong> by using SAPUI5 and <strong>CDS</strong> annotations.</br>",
+			"<p>The difficulties of those project was to understand and master the various SAP tools. Because S/4HANA brings numerous change by requiring web and SAP knowledge in front-end with Fiori and ABAP and OData service in back-end.  </p>",
+			"<p>Those project enabled me to discover and use the various extensibility tools offered by SAP in order to extend an SAP S/4HANA solution. </br>",
+			"</div'>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["NEWSAP", "Autonomie"],
+		"id_projet": "entree_marchandise",
+		"index": 2,
+		"nom": "Post Goods Receipt",
+		"image": "Images/em.png",
+		"modules": "SAP Module : MM",
+		"competence_tech": "<strong> SAPUI5/Fiori - OData - ABAP </strong>",
+		"competence_hum": "<strong> Autonomy </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>For a customer project, I developed a <strong>Fiori</strong> application that enables to post goods receipt after the purchase order processing. ",
+			"Those application was my entry point to use my skills regarding the SAP new technologies on which I self-trained.</p> ",
+			"<p>The functional process starts with the creation of purchase order in SAP, then the selection of the same purchase order in the Fiori screen through a list of order. In a new screen, the order processing consists to scan barcode of the purchase order item with the help of a barcode scanner. ",
+			"The barcode follows the GS-128 standard, he contains data like batch number, quantity number and the best-before-date. And finally, the user can post goods receipt on clicking a button. </p>",
+			"<p> During each step of the purchase order processing, the user can submit an incident due to a damaged package, missing packages and another reason. These incidents will be also saved in SAP in the purchase order item text. </p>",
+			"For those applications, I build the user interface with SAP Cloud Platform associated to <strong>SAPUI5</strong> and JSON technologies. And in SAP backend, I realized data processing with <strong>OData</strong> and <strong>ABAP</strong> programming languages. ",
+			"I quickly gain technical knowledges on SAPUI5 and <strong>MM</strong> module. This project has contributed to have a better understanding of the purchase process, the material management in SAP and various logistics concepts.</p>",
+			"</div'>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["NEWSAP", "Autonomie"],
+		"id_projet": "sortie_marchandise",
+		"index": 3,
+		"nom": "Order picking",
+		"image": "Images/sm.png",
+		"modules": "SAP Module : SD",
+		"competence_tech": "<strong> SAPUI5/Fiori - OData - ABAP </strong>",
+		"competence_hum": "<strong> Autonomiy </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>In the context of a customer project, I was responsible of the development of a <strong>Fiori</strong> application aims to process delivery and to post goods issue.</p> </br>",
+			"<p>The process of the application begins with the creation of a sales order in SAP. Following the creation, the user can find all the order for delivery in Fiori screen. The user selects a sales order then in a new screen, he scans the delivery item with a barcode scanner. </br>",
+			"The barcode follows the GS-128 standard, he contains data like batch number, quantity number and the best-before-date. Those data will be use later in the application for another functionality. </p>",
+			"<p>Always, in the same processing screen, the user can split batches, modify item quantities or change the post good issue date. Then launching the delivery creation thanks to a “save” button. Finally, he can post goods issue with the appropriate button after finished the delivery processing.</p>",
+			"<p>My responsibilities in the development of this application contributed to consolidate my abilities on <strong>SAPUI5</strong> and <strong>OData</strong> technologies. At the same time, reinforce my knowledges in logistics and on <strong>SD</strong> module. </p>",
+			"</div'>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["SAP", "Autonomie", "Flexibilité"],
+		"id_projet": "cockpit",
+		"index": 4,
+		"nom": "Delivery Cockpit",
+		"image": "Images/cockpit.png",
+		"modules": "SAP Modules : SD, WM",
+		"competence_tech": "<div> <strong> ABAP - ALV - BAPI - User Exit - Batch Input </strong> </div>",
+		"competence_hum": "<strong> Autonomy - Flexibility </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>In the context of SAP implementation project for a customer, I realized the development regarding a program named Delivery Cockpit. This <strong>ABAP</strong> program enables to manage the delivery creation, packaging and the delivery of export orders. </p>",
+			"<p>The process begins with the creation of sales order thanks to a specific program fulfilled by order items and material’s origins. Then in the Delivery Cockpit, the user can create an outbound delivery referring to the previous sales order. ",
+			"In the Delivery Cockpit, the user can also add item with the import of new sales orders. Moreover, in the cockpit it is also possible to make the item packaging thanks to the handling units. </p>",
+			"<p>The handling units was the hardest functionalities of this development because that is non-instinctive module, many <strong>BAPI</strong> used for handling units are obsoletes. After spending many hours to research solutions.",
+			" I had done a technical note in which you can find some code samples concerning handling unit : <a href='./Docs/documentation_technique_hu_sap_EN.pdf' download>HU technical note</a>. </p>",
+			"<p>For this project, I had to enhance my skills on SAP modules : <strong>SD</strong> and <strong>WM</strong>. This project lets me redefine my knowledge on these modules and discover some customizing points in Sales and Distribution scope unknown yet.</p>",
+			"</div>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["SAP", "Flexibilité"],
+		"id_projet": "agessa",
+		"index": 5,
+		"nom": "Agessa Declaration ",
+		"image": "Images/agessa.png",
+		"modules": "SAP Modules : FI/CO",
+		"competence_tech": "<strong> ABAP - BAPI </strong>",
+		"competence_hum": "<strong> Flexibility </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>For a project of improvement of an existing SAP solutions, I was responsible for the improvement of the process of electronic filing. Those <strong>ABAP</strong> programs use for electronic filling. They enable to visualize accounting data in reports and to generate a csv file which can be send to an administrative organization.</p>",
+			"<p>The application process is based on, firstly, a program which calculates suppliers’ contributions, displays a report and stores data in a specific table. Secondly, the user needs to launch another program to calculate salary charges, and this program also leads to the same functionalities as the former one. ",
+			"Finally, the last program gets data from the specific table, does calculations, checks data, displays a global report and generates a final csv file.",
+			"<p>In this project, the harshest part was to recover and understand the existing code. Because I had to improve the various existing programs without creating any regression. Furthermore, accounting documents require a methodical approach since there are protected data and no calculation error is allowed. </p>",
+			"<p>All in all, this project enables me to work on SAP module : <strong>FI/CO</strong> and tables associated to those functions. Nowadays, I am more familiar with SAP t-code related to finance and accounting functionalities.</p>",
+			"</div>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["SAP", "Flexibilité"],
+		"id_projet": "etiquette",
+		"index": 6,
+		"nom": "Pallets/containers Labels",
+		"image": "Images/etiquette.png",
+		"modules": "SAP Modules : SD, MM, WM",
+		"competence_tech": "<strong> ABAP - Smart Forms - Smart Styles</strong>",
+		"competence_hum": "<strong> Flexibility </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>In the context of improvement of an existing SAP solution, I modified a printing program and developed forms for pallets and containers labels. Those labels enable to inform packing and delivery information as shipment point, delivery quantity and barcode for the scan.</p>",
+			"<p>The process consists to trig labels printing at the handling unit creation with the item packing information. Then, to edit a new label at the delivery phase within the complementary delivery information.</p>",
+			"<p>This project reinforced my knowledge in the creation of Smartforms and on SAP module : <strong>SD</strong>. In which, I discovered Output messages creation and customizing points related to handling unit and delivery in SAP. </p>",
+			"</div>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["SAP", "Flexibilité"],
+		"id_projet": "avis",
+		"index": 7,
+		"nom": "Payment notifications",
+		"image": "Images/avis.png",
+		"modules": "SAP Modules : FI/CO",
+		"competence_tech": "<strong> ABAP - SAP Scripts</strong>",
+		"competence_hum": "<strong> Flexibilité </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>For this project, I was responsible for the improvement of existing invoice forms. Those forms were aimed to notify a billing to the customer. </p>",
+			"<p>The process consists in bill accounting documents depending on the company, the operating method and the accounting document type that generate a notification form with the required information: customer, company logo, recipient, author and the accounting document content.</p>",
+			"<p>First of all, to work on the project I had to train on <strong>SAP Script</strong> forms that are less and less used to realize forms in SAP. </p>",
+			"<p>This project was an entry point to discover SAP Script and to have a better understanding of invoice through SAP module : <strong>FI/CO</strong>. </p>",
+			"</div>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["NEWSAP", "Autonomie", "Présenter"],
+		"id_projet": "portfolio",
+		"index": 8,
+		"nom": "My Portfolio",
+		"image": "Images/portfolio.png",
+		"modules": "",
+		"competence_tech": "<strong> SAPUI5 - HTML - CSS </strong>",
+		"competence_hum": "<strong> Autonomy - Show </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>My portfolio is a personal realization entirely build autonomously. He contributes to let you know who I am and what are my skills, my academic path, my career, and some of my realizations. </p>",
+			"<p> To develop this application, I spend many hours to learn from video tutorials on OpenSAP therewith to master the different concepts of <strong>SAPUI5</strong> development. </p>",
+			"<p>I choose this tool because it’s an innovative technology in SAP’s field. And for me, a consultant must to be sensitive to new technologies. Before I have started to develop my portfolio, I try to design my application with SAP BUILD. Thus, I developed the personal project thanks to the WebIDE available in SAP Cloud Platform. ",
+			"To be more efficient, I used the SAPUI5 SDK that is a platform containing all tools to create SAPUI5 and Fiori applications. </p>",
+			"<p>To summarize, this project was for me the opportunity to use my fresh skills on SAPUI5 and to work in complete autonomy on my own project.</p>",
+			"</div'>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["HTMLCSSJS", "JAVAPHP", "HTML", "CSS", "JS", "PHP", "SQL", "Autonomie", "Présenter", "Transmettre"],
+		"id_projet": "intranet",
+		"index": 9,
+		"nom": "Zenity Intranet",
+		"image": "Images/intranet.png",
+		"modules": "",
+		"competence_tech": "<strong> WordPress - PHP - JS - HTML - CSS </strong>",
+		"competence_hum": "<strong> Autonomy - Show - Transfer </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>The Intranet project was my first professional mission. The requirements of this project were to enable Zenity’s managers and keyusers to realize administrative tasks as vacation requests, expense reports and sick leaves.</p>",
+			"<p> To accomplish the project, I realized many developments in <strong>WordPress</strong> CMS with the creation of elements named WordPress plugins. One of particularities of WordPress plugins are they required multiple programming languages such as <strong>HTML</strong>, <strong>CSS</strong>, <strong>JS</strong> and databases table management with SQL language. </p> ",
+			"<p>By using all those programming languages, I became more comfortable with all of them. A secondary task was to draft technical guides for each functionality in order to have a better software maintainability. Moreover, during the development period of this project, I lead many presentations regarding the progress of the developments inside the project. ",
+			"Each presentations was closely followed by the different actor of the projects : managers, testing team and programing team. </p>",
+			"<p>This project was very rewarding because I worked in complete autonomy during my tasks. And finally, it allowed me to gain a good technical expertise on Wordpress CMS since I self-train on the CMS thanks to numerous tutorials and research in order to master the technological tool. </p>",
+			"</div>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}, {
+		"techno": ["HTMLCSSJS", "JS", "CSS", "HTML", "Autonomie", "Flexibilité"],
+		"id_projet": "blog",
+		"index": 10,
+		"nom": "Blog",
+		"image": "Images/blog.png",
+		"modules": "",
+		"competence_tech": "<strong> Angular 2 - HTML - CSS </strong>",
+		"competence_hum": "<strong> Autonomy - Flexibility </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>In the context of a scholarship project, I developed a website with <strong>Angular 2</strong> tools. This blog aims to enable an administrator user to publish and modify articles. And visitor user to comment those articles. This project was funny because I had to train by my own mean to use the framework, his services and architecture. </p>",
+			"<p>Thanks to this project I learned to develop One Page application and redefine my knowledge in MVC development.</p>",
+			"</div>"
+		],
+		"close_button": "Close",
+		"developed_skills": "Developed skills"
+	}]
+
+}

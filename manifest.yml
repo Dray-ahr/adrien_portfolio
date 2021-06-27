@@ -1,0 +1,18 @@
+---
+applications:
+  - name: adrien_ratsi_portfolio2021
+    buildpack: staticfile_buildpack
+    memory: 512M
+
+    # UI Theme Designer
+ 
+
+ 
+    parameters:
+ 
+      service: theming
+ 
+      service-plan: standard
+ 
+    type: org.cloudfoundry.managed-service
+
